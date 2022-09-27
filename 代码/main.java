@@ -10,6 +10,6 @@ public class main {
         for (int i = 0; i < plan.size(); i++) {
             sc.addStudent (plan.get(i));
         }
-        sc.print();//输出结果
+        sc.print();//输出
     }
 }
