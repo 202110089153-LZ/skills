@@ -7,7 +7,7 @@ public interface IParams{
 public int getBig();
 // 获取中班名额
 public int getMedium();
-// 获取小班名额
+// 获取小班名额了
 public int getSmall();
 // 获取入学序列，例如 [1 2 2 3] 表示依次报名入学一名大班、中班、中班、小班的学生
 public ArrayList<Integer> getPlanSignUp();
