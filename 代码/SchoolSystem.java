@@ -76,7 +76,7 @@ public class SchoolSystem implements ISignUp, IParams {
 
     @Override
     public ArrayList<Integer> getPlanSignUp() {
-        System.out.println("输入学生的姓名:");
+        System.out.println("输出学生的姓名:");
         int n = parse(s.next()).length;
         System.out.print("输入想进入的班级:\n");
         for (int i = 0; i < n; i++) {
